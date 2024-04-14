@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: rgba(250, 240, 48, 0.1);
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        a:active {
+            color: hsl(0, 100%, 45%);
+        }
+    </style>
+</head>
+
+<body>
+    <!--To create a link we need to use the anker tag and need to give the link destination in the
+        href attribute-->
+    <a href="https://www.w3schools.com/html/html_links.asp">Click_Here</a><br>
+    <!--To open the link destination tab in a new tab we need to use the target attribute and need
+        to give _blank in it. If we give it as _self then it will be displayed in the same tab-->
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Click_blank</a><br>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_self">Click_self</a><br>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_parent">Click_parent</a><br>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_top">Click_top</a><br>
+    <!---We can use the image as the link-->
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">
+        <img src="Passport Photo.jpeg" style="width:100px;height:100px;">
+    </a>
+    <!--Link to send an email to a particular persons mail id -->
+    <a href="mailto:challavenkatareddy75893@gamil.com">mail to venkata reddy</a><br>
+    <!--To use the button as link-->
+    <form action="https://www.w3schools.com/html/html_links.asp" target="_blank">
+        <button type="submit">Click Here</button>
+    </form>
+    <!--The link title is used to give the brief information about the link which we are 
+        opening-->
+    <a href="https://www.w3schools.com/html/html_links.asp" title="opens w3schools">Click</a>
+    <!--We can change the default colors of the link-->
+    <a href="https://www.w3schools.com/html/html_links.asp">Click Me</a>
+</body>
+
+</html>

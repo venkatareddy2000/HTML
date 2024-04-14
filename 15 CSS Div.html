@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+</head>
+<style>
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        background-color: red;
+        margin: 0px;
+    }
+
+    body {
+        position: fixed;
+    }
+
+    .header {
+        height: 20%;
+        width: auto;
+        padding: 0px;
+        background-color: darkgray;
+        color: white;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .navigate {
+        background-color: cadetblue;
+        height: 20%;
+        width: 100%;
+        text-align: left;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .navigate ul {
+        list-style-type: none;
+    }
+
+    .navigate ul li {
+        display: inline;
+    }
+
+    .navigate ul li a {
+        text-decoration: none;
+        margin: 15px;
+    }
+
+    .main {
+        height: 50%;
+    }
+
+    .main .main-content {
+        height: 100%;
+        width: 70%;
+        background-color: aqua;
+        float: left;
+    }
+
+    .main .side-content {
+        text-align: center;
+        float: right;
+        width: 30%;
+        min-height: 100%;
+        background-color: #c1cdcd;
+        margin: 0%;
+    }
+
+    .footer {
+        background-color: brown;
+        text-align: center;
+        height: 10%;
+    }
+</style>
+
+<body>
+    <div class="header">
+        Welcome to the JavaTtutorials
+    </div>
+    <div class="navigate">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Signin</a></li>
+            <li><a href="#">Signout</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="main-content"> Main Content</div>
+        <div class="side-content">Side Content</div>
+    </div>
+    <div class="footer">©<strong>Copyright javaTpoint.com</div>
+</body>
+
+</html>
